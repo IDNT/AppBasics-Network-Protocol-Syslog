@@ -1,0 +1,2 @@
+﻿IDNT.AppBase.Network.Protocol.Syslog 
+Copyright 2020 IDNT Europe GmbH (https://idnt.net)

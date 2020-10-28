@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2;net47;netcoreapp3.1</TargetFrameworks>
+    <AssemblyName>IDNT.AppBasics.Network.Protocol.Syslog</AssemblyName>
+    <RootNamespace>IDNT.AppBasics</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>This component provides a syslog server (TCP and UDP) with parsing of incoming 
+messages according to RFC5424 [https://tools.ietf.org/html/rfc5424].</Description>
+    <Company>IDNT Europe GmbH</Company>
+    <Authors>IDNT and contributors</Authors>
+    <Product>IDNT AppBasics</Product>
+    <Copyright>2020 Copyright IDNT Europe GmbH</Copyright>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIcon>project.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageTags>Syslog</PackageTags>
+    <ApplicationIcon>project.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\project.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
