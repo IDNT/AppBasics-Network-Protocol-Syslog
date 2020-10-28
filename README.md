@@ -7,8 +7,8 @@ own application.
 
 # This component
 
-This component provides a syslog server (TCP and UDP) and parsing incoming messages 
-according to RFC5424 [https://tools.ietf.org/html/rfc5424].
+This component provides a syslog server (TCP and UDP) with the capability of parsing 
+incoming messages according to RFC5424 [https://tools.ietf.org/html/rfc5424].
 
 # Documentation
  

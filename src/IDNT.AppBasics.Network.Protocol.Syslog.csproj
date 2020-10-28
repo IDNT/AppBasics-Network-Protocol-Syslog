@@ -17,6 +17,8 @@ messages according to RFC5424 [https://tools.ietf.org/html/rfc5424].</Descriptio
     <PackageIconUrl />
     <PackageTags>Syslog</PackageTags>
     <ApplicationIcon>project.ico</ApplicationIcon>
+    <RepositoryUrl>https://github.com/IDNT/IDNT-AppBasics-Network-Protocol-Syslog</RepositoryUrl>
+    <RepositoryType>nuget</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,6 +34,10 @@ messages according to RFC5424 [https://tools.ietf.org/html/rfc5424].</Descriptio
 
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NuGet.CommandLine" Version="5.7.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
